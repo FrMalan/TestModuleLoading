@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<linker>
+	<!-- keep full netstandard since its used by the lazy modules -->
+	<assembly fullname="netstandard" />
+	<!-- keep full entrypoint -->
+	<assembly fullname="ModulesHost" />
+</linker>

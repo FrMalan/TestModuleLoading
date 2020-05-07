@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30028.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.Shared", "Stratos.Workbench\Shared\Stratos.Workbench.Shared.csproj", "{6A1CDC20-C41F-4058-A204-976718C2083A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.WebClient", "Stratos.Workbench\WebClient\Stratos.Workbench.WebClient.csproj", "{D19C95C0-1ECE-449D-8BCB-2C300B73205A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.WebServer", "Stratos.Workbench\WebServer\Stratos.Workbench.WebServer.csproj", "{1E102368-68A4-4E69-8562-85476A2119F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E1135352-DCD2-49B2-B57E-3217DA15A8E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutVest", "OutVest", "{C096A8E8-D7A5-4459-96C6-4DFF8E737AD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.Module.OutVest", "Stratos.Workbench\Modules\OutVest\Stratos.Workbench.Module.OutVest.csproj", "{46761CAD-E90A-470F-9A1D-41659D8E726E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A1CDC20-C41F-4058-A204-976718C2083A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1CDC20-C41F-4058-A204-976718C2083A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1CDC20-C41F-4058-A204-976718C2083A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1CDC20-C41F-4058-A204-976718C2083A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19C95C0-1ECE-449D-8BCB-2C300B73205A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19C95C0-1ECE-449D-8BCB-2C300B73205A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19C95C0-1ECE-449D-8BCB-2C300B73205A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19C95C0-1ECE-449D-8BCB-2C300B73205A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E102368-68A4-4E69-8562-85476A2119F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E102368-68A4-4E69-8562-85476A2119F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E102368-68A4-4E69-8562-85476A2119F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E102368-68A4-4E69-8562-85476A2119F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46761CAD-E90A-470F-9A1D-41659D8E726E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46761CAD-E90A-470F-9A1D-41659D8E726E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46761CAD-E90A-470F-9A1D-41659D8E726E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46761CAD-E90A-470F-9A1D-41659D8E726E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C096A8E8-D7A5-4459-96C6-4DFF8E737AD7} = {E1135352-DCD2-49B2-B57E-3217DA15A8E2}
+		{46761CAD-E90A-470F-9A1D-41659D8E726E} = {C096A8E8-D7A5-4459-96C6-4DFF8E737AD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95BED2F4-D420-42BA-AE8E-3B89AD03573D}
+	EndGlobalSection
+EndGlobal
