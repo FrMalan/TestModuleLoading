@@ -18,7 +18,7 @@ namespace Stratos.Workbench.WebClient
 
             builder.Services.AddLazyLoading(new LazyLoadingOptions
             {
-                ModuleHints = new[] { "Stratos.Workbench.Module.OutVest" }
+                ModuleHints = new[] { "Stratos.Workbench.ModuleHost" }
             });
 
             await builder.Build().RunAsync();

@@ -37,9 +37,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        //forecasts = new WeatherForecast[] { new WeatherForecast { Date = DateTime.Now, Summary = "Skaap", TemperatureC = 27 } };
-
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("weather.json");  // sample json file in wwwroot
-        //forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");  // Controller in WebServer project.
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");  // Controller in WebServer project.
     }
 }

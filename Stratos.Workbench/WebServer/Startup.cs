@@ -1,3 +1,4 @@
+using BlazorLazyLoading.Server;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -42,6 +43,7 @@ namespace Stratos.Workbench.WebServer
             app.UseHttpsRedirection();
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
+            app.UseLazyLoading();
 
             app.UseRouting();
 

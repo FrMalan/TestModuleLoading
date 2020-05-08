@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.WebClient
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.WebServer", "Stratos.Workbench\WebServer\Stratos.Workbench.WebServer.csproj", "{1E102368-68A4-4E69-8562-85476A2119F2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.ModuleHost", "Stratos.Workbench\ModuleHost\Stratos.Workbench.ModuleHost.csproj", "{0E74125F-738D-4EEF-A545-382EDF28E33A}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E1135352-DCD2-49B2-B57E-3217DA15A8E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6465E663-2BBD-425E-A53E-549A723BAC15}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutVest", "OutVest", "{C096A8E8-D7A5-4459-96C6-4DFF8E737AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stratos.Workbench.Module.Core", "Stratos.Workbench\Modules\Core\Stratos.Workbench.Module.Core.csproj", "{5B79984A-E8B9-4D61-AC92-F6CB9DABA65C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stratos.Workbench.Module.OutVest", "Stratos.Workbench\Modules\OutVest\Stratos.Workbench.Module.OutVest.csproj", "{46761CAD-E90A-470F-9A1D-41659D8E726E}"
 EndProject
@@ -25,6 +31,10 @@ Global
 		{6A1CDC20-C41F-4058-A204-976718C2083A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A1CDC20-C41F-4058-A204-976718C2083A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A1CDC20-C41F-4058-A204-976718C2083A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E74125F-738D-4EEF-A545-382EDF28E33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E74125F-738D-4EEF-A545-382EDF28E33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E74125F-738D-4EEF-A545-382EDF28E33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E74125F-738D-4EEF-A545-382EDF28E33A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D19C95C0-1ECE-449D-8BCB-2C300B73205A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D19C95C0-1ECE-449D-8BCB-2C300B73205A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19C95C0-1ECE-449D-8BCB-2C300B73205A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +47,10 @@ Global
 		{46761CAD-E90A-470F-9A1D-41659D8E726E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46761CAD-E90A-470F-9A1D-41659D8E726E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46761CAD-E90A-470F-9A1D-41659D8E726E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B79984A-E8B9-4D61-AC92-F6CB9DABA65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B79984A-E8B9-4D61-AC92-F6CB9DABA65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B79984A-E8B9-4D61-AC92-F6CB9DABA65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B79984A-E8B9-4D61-AC92-F6CB9DABA65C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +58,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C096A8E8-D7A5-4459-96C6-4DFF8E737AD7} = {E1135352-DCD2-49B2-B57E-3217DA15A8E2}
 		{46761CAD-E90A-470F-9A1D-41659D8E726E} = {C096A8E8-D7A5-4459-96C6-4DFF8E737AD7}
+		{5B79984A-E8B9-4D61-AC92-F6CB9DABA65C} = {6465E663-2BBD-425E-A53E-549A723BAC15}
+		{6465E663-2BBD-425E-A53E-549A723BAC15} = {E1135352-DCD2-49B2-B57E-3217DA15A8E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95BED2F4-D420-42BA-AE8E-3B89AD03573D}
